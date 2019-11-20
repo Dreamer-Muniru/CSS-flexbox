@@ -1,0 +1,129 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	background-color: #4ac39cd9;;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	min-height: 120px;
+}
+header .flexible-layout {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	color: #fff;
+}
+
+header ul {
+	margin: 0px;
+	padding: 0px;
+}
+ul li {
+	display: inline-block;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding: 5px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+
+}
+
+
+nav {
+	float: left;
+	background-color: #151414d1;
+	width: 100%;
+	margin-top: 100px;
+
+
+}
+
+/*
+body styling
+*/
+
+.wrapper {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	column-gap: 0px;
+
+}
+
+img {
+	width: 60%;
+	height: 50%;
+	overflow: hidden;
+}
+
+
+/*styling of left grid*/
+.left-flex{
+	background-color: #9e9e9e1c;
+	width: 30%;
+	height: 100%;
+	padding: 10px;
+
+
+}
+.pic2 {
+	width: 100%;
+	height: 180px;
+}
+.pic2 img {
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.flex-content .pic2 {
+	padding-bottom: 20px;
+}
+
+/*end of left grid*/
+
+
+/* styling of right grid*/
+
+.right-flex {
+	width: 70%;
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+}
+.flex-right-content p {
+	margin: 5px;
+	padding: 0px;
+	font-size: 16px;
+}
+
+.right-flex p {
+	font-size: 14px;
+}
+
+
+/*end of right-grid styling*/
+
+footer {
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background-color: #9e9e9e47;
+}
+
+
+
+.footer-content h3 {
+	padding-top: 40px;
+	padding-bottom: 0px;
+	text-align: center;
+	font-weight: bold
+}
